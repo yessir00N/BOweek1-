@@ -14,7 +14,7 @@ body{
 }
 
 header,footer{
-    background: #b0e0e6 ;
+    background:#CBC3E3;
     color: black;
     height: 60px;
 }
@@ -135,9 +135,15 @@ footer > p{
 .Openingstijden{
     width: 600px;
     width: 600px;
-    background: red;
-    display: flex;
+    background: #CBC3E3;
+    display:block;
     justify-content: left;
+    line-height: 2px;
+    margin-bottom: 0px;
+    border: black;
+    border-style: ridge;
+    border-width: 5px;
+    border-right: none;
 }
 
 .OpentijdText{
@@ -203,4 +209,15 @@ footer > p{
 .Foto1{
     height: 700px;
     width: 400px;
+    border: black;
+    border-style: ridge;
+    border-width: 5px;
+    border-left: none;
+}
+.logo{
+    display:flex;
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
 }
