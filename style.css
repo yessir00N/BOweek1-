@@ -10,11 +10,11 @@ body{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-
+    background-color: #DADDD8;
 }
 
 header,footer{
-    background: #b0e0e6 ;
+    background: #1C1C1C ;
     color: black;
     height: 60px;
 }
@@ -59,9 +59,10 @@ h1{
 }
 
 article{
-    width: 60vw;
+    width: 80vw;
     margin: 0 auto;
     padding: 40px;
+    background-color: #ECEBE4;
 }
 
 figure{
@@ -75,14 +76,20 @@ img{
     transition: 0.2s transform; 
 }
 
-img:hover{
+.Foto1:hover{
     transform: scale(1.05);
 }
+.Foto2:hover{
+    transform: scale(1.05);
+}
+
 
 p{
     margin-bottom: 40px;
 }
-
+.footertext{
+    color: white;
+}
 p:last-of-type{
     margin-bottom: 0;
 }
@@ -179,6 +186,37 @@ footer > p{
 .Foto1{
     display:flex;
     align-items: right;
-    height: 700px;
-    width: 400px;
+    height: 350px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 20px;
+}
+.Foto2{
+    display:flex;
+    align-items: right;
+    height: 350px;
+    width: 350px;
+    border: 3px solid black;
+    margin: 20px;
+}
+
+.klein_logo{
+    display:flex;
+    align-items: right;
+    height: 500px;
+    width: 700px;
+    border: 3px solid black;
+    background-color:#c5c5c5;
+    margin: 20px;
+    justify-content: center;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+}
+
+.Afbeelding-Flex{
+    display: flex;
+    justify-content: center;
 }
