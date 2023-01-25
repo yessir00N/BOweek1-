@@ -129,8 +129,8 @@ video{
 }
 footer{
     height: 180px;
-    display: flex;
     align-items: center;
+    line-height: 26px;
 }
 
 footer > p{
@@ -138,6 +138,29 @@ footer > p{
     margin:0 auto;
     padding-left: 40px;
 }
+
+.Openingstijden{
+    width: 600px;
+    width: 600px;
+    background: #CBC3E3;
+    display:block;
+    justify-content: left;
+    line-height: 2px;
+    margin-bottom: 0px;
+    border: black;
+    border-style: ridge;
+    border-width: 5px;
+    border-right: none;
+}
+
+.OpentijdText{
+    font-size: large;
+}
+
+
+
+
+
 
 @media screen and (max-width:1000px){
     article{ 
@@ -183,7 +206,9 @@ footer > p{
     }
 }
 
-.Foto1{
+.flexfoto
+{
+    
     display:flex;
     align-items: right;
     height: 350px;
